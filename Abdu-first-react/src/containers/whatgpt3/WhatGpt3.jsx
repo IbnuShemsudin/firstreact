@@ -1,11 +1,11 @@
 import React from 'react'
-import './whatgpt.css'
-function whatGpt3() {
+import './whatgpt3.css'
+function WhatGPT3() {
   return (
     <div>
-      whatGpt3
+      WhatGPT3
     </div>
   )
 }
 
-export default whatGpt3
+export default WhatGPT3

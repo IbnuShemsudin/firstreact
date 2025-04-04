@@ -1,6 +1,7 @@
 import React from 'react'
-import './feature.css'
-function features() {
+import './features.css'
+
+function Features() {
   return (
     <div>
       features
@@ -8,4 +9,4 @@ function features() {
   )
 }
 
-export default Feature
+export default Features

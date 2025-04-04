@@ -1,30 +1,31 @@
-import { useState } from "react";
-import { Cta, Brand, Navbar } from "./components";
+import React from "react";
+
 import {
-  Blog,
-  WhatGpt3,
   Footer,
-  Header,
+  Blog,
   Possibility,
-  whatGpt3,
+  Features,
+  WhatGPT3,
+  Header,
 } from "./containers";
+import { CTA, Brand, Navbar } from "./components";
 
 import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <>
-      <div>
-        <Navbar></Navbar>
-        <Header></Header>
-        <Brand></Brand>
-        <WhatGpt3></WhatGpt3>
-        <Cta></Cta>
-      </div>
-    </>
-  );
-}
+const App = () => (
+  <div className="App">
+    <div className="gradient__bg">
+      <Navbar />
+      <Header />
+    </div>
+    <Brand />
+    <WhatGPT3 />
+    <Features />
+    <Possibility />
+    <CTA />
+    <Blog />
+    <Footer />
+  </div>
+);
 
 export default App;
